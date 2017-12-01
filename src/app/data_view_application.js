@@ -5,14 +5,12 @@ goog.require('goog.events.EventTarget');
 
 
 neutron.dashboard.DataViewApplication = function(){
-    goog.base(this);
+    console.log("DataViewApplication")
 }
-
-goog.inherits(neutron.dashboard.DataViewApplication, goog.events.EventTarget);
 
 
 function DataViewApplicationStart(){
     console.log("DataViewApplicationStart")    
 }
 
-goog.exportSymbol('DataViewApplicationStart', DataViewApplicationStart);
+goog.exportSymbol('neutron.dashboard.DataViewApplication', neutron.dashboard.DataViewApplication);

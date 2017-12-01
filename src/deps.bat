@@ -1,1 +1,1 @@
-python closure/closure/bin/build/depswriter.py --root_with_prefix="myproject ../../../myproject" > ./myproject/myproject-deps.js
+python closure/closure/bin/build/depswriter.py --root_with_prefix="app ../../../app" > app-deps.js

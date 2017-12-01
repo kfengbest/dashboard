@@ -2,8 +2,11 @@
     <head>
         <title>Data View Application</title>                     
         <script src="closure/closure/goog/base.js"></script>
-        <script src="app/data_view_application.js"></script>
+        <script src="app-deps.js"></script>
+        <script>
+            goog.require('neutron.dashboard.DataViewApplication');
+          </script>
     </head>
-    <body onload='DataViewApplicationStart();'>
+    <body onload='neutron.dashboard.DataViewApplication();'>
     </body>
 </html>
