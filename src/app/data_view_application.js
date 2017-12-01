@@ -15,6 +15,7 @@ goog.inherits(neutron.dashboard.DataViewApplication, goog.events.EventTarget);
 
 function DataViewApplicationStart(){
     console.log("DataViewApplicationStart")    
+    window.neutron.dashboard.Application = new neutron.dashboard.DataViewApplication();
 }
 
-goog.exportSymbol('neutron.dashboard.DataViewApplication', neutron.dashboard.DataViewApplication);
+goog.exportSymbol('DataViewApplicationStart', DataViewApplicationStart);
