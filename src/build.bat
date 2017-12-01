@@ -1,0 +1,1 @@
+python closure/closure/bin/build/closurebuilder.py --root=closure\ --root=myproject\ --namespace="myproject.start"
